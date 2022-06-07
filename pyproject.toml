@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dask-implementation"
+version = "0.1.0"
+description = "A brief implementation of the dask framework, to test its various capabilities."
+authors = ["giacomo rognoni"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dask = "^2022.5.2"
+click = "^8.1.3"
+distributed ="^2022.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
